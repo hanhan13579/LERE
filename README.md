@@ -1,11 +1,12 @@
 # LERE: A Method Based on LLMs and Enhanced EARS in Requirements Engineering
 
 ## Project Overview
-LERE (Large Language Model-based Enhanced EARS for Requirements Engineering) is a method designed to improve the accuracy of standardizing Chinese requirements. It utilizes carefully crafted prompts to guide Large Language Models (LLMs) like Qwen2.5 and ChatGPT-4.0 in generating standardized output texts. The prompt design incorporates an improved version of the **EARS (Easy Approach to Requirements Syntax)** paradigm, divided into two stages to enhance performance in addressing standardization issues.
+LERE is a method designed to improve the accuracy of Chinese requirements normalization. It utilizes carefully crafted prompts to guide Large Language Models (LLMs) like Qwen2.5 and ChatGPT-4.0 in generating normalized output texts. The prompt design incorporates an enhanced version of the **EARS (Easy Approach to Requirements Syntax)** paradigm, divided into two stages to improve performance in addressing standardization issues.
 
 ### Key Features:
-- **Two-stage prompt processing**: Enhances accuracy by applying separate prompts in sequence.
 - **EARS enhancement**: An improved version of the EARS paradigm tailored for better standardization of Chinese requirements.
+- **Two-stage prompt processing**: Enhances accuracy by applying separate prompts in sequence.
+
   
 The primary objective of this method is to resolve common issues found in Chinese requirement texts such as uniqueness, conciseness, verifiability, feasibility, and more, ensuring that the output adheres to industry standards.
 
@@ -39,8 +40,7 @@ These prompts can be utilized to test the impact of different components of the 
    - Provide the test text after inputting the prompt.
    - If using the two-step process, apply the second step's prompt to the output generated from the first step.
 
-## License
-[Specify your license here]
+
 
 ---
 

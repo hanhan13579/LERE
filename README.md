@@ -4,14 +4,13 @@
 LERE is a method designed to improve the accuracy of Chinese requirements normalization. It utilizes carefully crafted prompts to guide Large Language Models (LLMs) like Qwen2.5 and ChatGPT-4.0 in generating normalized output texts. The prompt design incorporates an enhanced version of the **EARS (Easy Approach to Requirements Syntax)** paradigm, divided into two stages to improve performance in addressing standardization issues.
 
 ### Key Features:
-- **EARS enhancement**: An improved version of the EARS paradigm tailored for better standardization of Chinese requirements.
-- **Two-stage prompt processing**: Enhances accuracy by applying separate prompts in sequence.
+- **EARS enhancement**: An enhanced version of the EARS paradigm tailored for better normalization of Chinese requirements.
+- **Two-stage prompt processing**: Improves accuracy by applying separate prompts in sequence.
 
-  
 The primary objective of this method is to resolve common issues found in Chinese requirement texts such as uniqueness, conciseness, verifiability, feasibility, and more, ensuring that the output adheres to industry standards.
 
 ## Dataset
-For testing purposes, we created a dataset consisting of 138 Chinese requirement texts extracted from project-specific requirement documents. These texts were analyzed based on industry standards, the EARS paradigm, and norms for Chinese expressions. The identified standardization issues in the dataset are categorized into eight types:
+For testing purposes, we created a dataset consisting of 138 Chinese requirement texts extracted from project-specific requirement documents. These texts were analyzed based on industry standards, the enhanced EARS paradigm, and norms for Chinese expressions. The identified standardization issues in the dataset are categorized into eight types:
 
 1. **Uniqueness**
 2. **Conciseness**
@@ -23,10 +22,7 @@ For testing purposes, we created a dataset consisting of 138 Chinese requirement
 8. **Prohibition of pronouns**
 
 ## Prompt Code
-The repository contains the prompt code used for both the LERE method and the baseline model. Additionally, it includes the prompts used for ablation experiments, specifically:
-
-- **LERE without EARS**
-- **LERE without two-step processing**
+The repository contains the prompt code used for both the LERE method and the baseline model. Additionally, it includes the prompts used for ablation experiments: LERE without EARS  and LERE without two-step processing
 
 These prompts can be utilized to test the impact of different components of the LERE method on the standardization process.
 

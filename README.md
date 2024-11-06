@@ -24,7 +24,7 @@ For testing purposes, we created a dataset consisting of 138 Chinese requirement
 ## Prompt Code
 The repository contains the prompt code used for both the LERE method and the baseline model. Additionally, it includes the prompts used for ablation experiments: LERE without EARS  and LERE without two-step processing
 
-These prompts can be utilized to test the impact of different components of the LERE method on the standardization process.
+These prompts can be utilized to test the impact of different components of the LERE method on the normalization process.
 
 ## Usage Instructions
 1. **Models Used**: 
@@ -35,8 +35,6 @@ These prompts can be utilized to test the impact of different components of the 
    - Input the designed prompt into the model through an interactive interface.
    - Provide the test text after inputting the prompt.
    - If using the two-step process, apply the second step's prompt to the output generated from the first step.
-
-
 
 ---
 
